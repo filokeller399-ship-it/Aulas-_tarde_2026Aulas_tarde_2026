@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bungee&family=Faster+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+	margin: 0px;
+	padding:0px;
+}
+	body{
+	/*background:linear-gradient(lime,green);*/
+	background:radial-gradient(bred,rose);
+	background-size: 100vw 100vh;
+	background-image: url(../IMG/musica.jpg);
+}
+section{
+	display: flex;
+	justify-content: center;
+
+}
+section.menu{
+		flex-direction: column;
+		width: 40vw;
+		margin-left:30vw;
+		margin-top: 25vh;
+		background-color:rgb(230,205,224,0.5);
+
+		height: 50vh;
+		border-radius: 16px;
+		border: 2px solid brown;
+	}
+	h1{
+		text-align: center;
+		font-size: 36pt;/* 33px*/
+		color: black;
+		font-family: "black", system-ui;
+	}
+		ul.nav{
+			list-style-type: none;
+			width: 30%;
+			margin-left: 35%;
+		}
+
+			ul.nav li{/*botao*/
+				background-color: orange;
+				border-radius: 16px;
+				border: 2px inset black;
+				text-align: center;
+				margin-top: 2%;
+				padding: 2%;
+
+	}
+		ul.nav li a{
+			text-decoration: none;
+			color:yellow;
+			font-size:1.5em;
+			font-family: "Bitcount Prop Double Ink", system-ui;
+			
+		}
