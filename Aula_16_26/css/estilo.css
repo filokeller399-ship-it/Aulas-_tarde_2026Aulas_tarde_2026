@@ -3,6 +3,13 @@
 	margin:0px;
 	padding:0px;
 }
+body{
+	background-image: url(../img/kukis.jpg);
+	background-size: cover;
+}
+body.outro{
+	background-image: none;
+}
 section{
 	display:flex;
 	justify-content: center;
@@ -10,7 +17,7 @@ section{
 section.topo{
 	width: 100vw;
 	height: 10vh;
-	border-bottom: 1px solid gray;
+	position: fixed;
 }
 #logo{
 	width: 10%;
@@ -74,6 +81,75 @@ ul.nav li{
 }
 ul.nav li:hover ol{
 	display: block;
+
+}
+ul.nav li ol li a{
+	display: block;
+	text-decoration: none;
+	color:orange;
+	font-family: "Playfair Display", serif;
 }
 
+section.principal{
+	windth: 99vw;
+	height: 89vh;
+}
+section.principal iframe{
+	width: 100vw;
+	height: 100vh;
+	border:0px;
+}
+section.home{
+	width: 80vw;
+	height: 90vh;
+	margin-left: 10vw;
 
+}
+section.home img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	animation-name: animacao;
+	animation-duration: 4s;
+
+}
+@keyframes animacao{
+	0%{
+		max-width: 15%;
+		max-height: 15%;
+}
+50%{
+max-width: 50%;
+max-height: 50%;
+box-shadow: 6px 6px 6px #EF6034;
+}
+}
+section.resposta,form{
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	width: 70vw;
+	height: auto;
+	margin-left: 15vw;
+	/*background-color:;*/
+	color:#808ABF;
+	align-itens: center;
+	border-radius: 16px;
+	border: 1px ridge #808ABF;
+	font-family: "lucida Handwriting",cursive;
+	margin-top:15vw;
+
+}
+	section.resposta a, input[type=submit]{
+	background-color: #808ABF;
+	border:1px ridge black;
+	color:white;
+	font-family: "lucida Handwriting",cursive;
+	font-size: 1vw; 
+	border-radius: 16px;
+	padding: 1%;
+	text-decoration: none;
+	margin-top: 2%;
+
+}

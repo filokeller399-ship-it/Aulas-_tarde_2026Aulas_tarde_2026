@@ -1,13 +1,14 @@
 <?php require_once'cabecalho.php';?>
 <section class="topo">
 	<div id="logo">
-		<img src="img/logo.png"alt="logo">
-	</div>
+		<a href="home.php"target="janela">
+			<img src="img/logo.png"alt="Logo">
+	</a></div>
 	<div id="menu">
 		<ul class="nav">
 			<li>Básico
 				<ol>
-					<li><a href="operações.php"
+					<li><a href="operacoes.php"
 						target="janela">Operações</a></li>
 					<li><a href="soma.php"
 						target="janela">soma</a></li>
@@ -21,8 +22,8 @@
 			</ul>
 		</div>
 	</section>
-	</section class="principal">
-	<iframe src="" name="janela"></iframe>
+	<section class="principal">
+	<iframe src="home.php" name="janela"></iframe>
 </section>
 </body>
 	</html>
