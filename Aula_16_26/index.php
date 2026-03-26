@@ -23,10 +23,28 @@
 				
 					</ol>
 				</li>
+				<li>SE
+					<ol>
+		<li><a href="parimpar.php" 
+						target="janela">Par Ímpar</a></li>
+					<li><a href="maior.php" 
+						target="janela">Maior</a></li>
+					<li><a href="livros.php" 
+						target="janela">Livros</a></li>
+					<li><a href="escola.php" 
+						target="janela">Escola</a></li>
+					<li><a href="media.php" 
+						target="janela">Média</a></li>
+					<li><a href="votar.php" 
+						target="janela">votar</a></li>
+					<li><a href="imc.php" 
+						target="janela">I.M.C</a></li>
 
-			</ul>
-		</div>
-	</section>
+				</ol>
+			</li>
+		</ul>
+	</div>
+</section>
 	<section class="principal">
 	<iframe src="home.php" name="janela"></iframe>
 </section>

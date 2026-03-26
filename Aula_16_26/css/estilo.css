@@ -44,8 +44,11 @@ section.topo{
 		padding: 0px;
 		list-style-type: none;
 		width: 90%;
-		height: 30%;
+		height: 40%;
+		display: flex;
+
 	}
+
 ul.nav li ol{
 	display:none;
 	list-style-type: none;
@@ -137,7 +140,7 @@ section.resposta,form{
 	border-radius: 16px;
 	border: 1px ridge #808ABF;
 	font-family: "lucida Handwriting",cursive;
-	margin-top:15vw;
+	margin-top:15vh;
 
 }
 	section.resposta a, input[type=submit]{
